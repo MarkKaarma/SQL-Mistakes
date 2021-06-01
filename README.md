@@ -1,10 +1,10 @@
-**Внимание! В запросах есть ошибки - исправьте их и будет счатье!**
+﻿**Внимание! В запросах есть ошибки - исправьте их и будет счатье!**
 
 ## 1.Создайте новую таблицу  с таким запросом
 
 ```sql
 CREATE TABLE test(
-id int auto_insert PRIMARY KEY,
+id int AUTO_INCREMENT PRIMARY KEY,
 nimi varchar(50),
 aasta int,
 raha decimal(3,2)
