@@ -14,7 +14,7 @@ raha decimal(3,2)
 ## 2. Добавьте запись в таблицу.
 ```sql
 INSERT INTO tect (nimi, aasta, raha)
-VALUES (‘Test’, 15, ‘12.2’)
+VALUES (‘Test’, 15, 12.2)
 ```
 
 
