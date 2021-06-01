@@ -23,7 +23,7 @@ VALUES (‘Test’, 15, 12.2)
 Задание таково: дать ему права на просмотр, добавление и удаление в таблице test, но он не может удалять запросы.
 
 ```sql
-CREATE GRANT SELECT, UPDATE, INSERT ON tect to логин@localhost;
+CREATE GRANT SELECT, DELETE, INSERT ON tect to логин@localhost;
 ```
 
 
